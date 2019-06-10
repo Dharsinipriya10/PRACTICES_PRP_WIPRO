@@ -11,8 +11,8 @@ public class Prime {
 				break;
 			}
 		}
-		if(ok==1) System.out.println("not a prime");
-		else System.out.println("prime");
+		if(ok==1) System.out.println("no");
+		else System.out.println("yes");
 		}
 }
 
