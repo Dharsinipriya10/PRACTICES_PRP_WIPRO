@@ -15,11 +15,11 @@ public class palindrome {
 		}
 		if(temp==sum)
 		{
-			System.out.println("given number is palindrome");
+			System.out.println("yes");
 		}
 		else
 			
 		{
-			System.out.println("given number is not a palindrome");
+			System.out.println("no");
 		}
 	}
