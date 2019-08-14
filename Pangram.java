@@ -11,9 +11,14 @@ public static void main(String [] args){
 		  if(alpha.charAt(i)==s.charAt(j)){
 				count++;
 				break;
-				
-			}
-		}
-	
+		  }}}
+	if(count>=alpha.length()){
+		System.out.println("panagram");
 	}
+	else{
+		System.out.println("NO");
+	}
+}
+}
+	
 	
