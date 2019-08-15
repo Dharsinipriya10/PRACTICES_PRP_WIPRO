@@ -5,8 +5,7 @@ public static void main(String [] args){
 	s=s.toLowerCase();
 	String alpha="abcdefghijklmnopqrstuvwxyz";
 	int count=0;
-	boolean flag=false;
-	for(int i=0;i<alpha.length();i++){
+for(int i=0;i<alpha.length();i++){
 	   for(int j=0;j<s.length();j++){
 		  if(alpha.charAt(i)==s.charAt(j)){
 				count++;
